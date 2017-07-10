@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 140.452 sec <<< FAILURE! - in TestSuite
+testNavLink(com.wbl.test.HomePageTest)  Time elapsed: 5.411 sec  <<< FAILURE!
+java.lang.AssertionError: expected [6] but found [5]
+	at com.wbl.test.HomePageTest.testNavLink(HomePageTest.java:28)
+
+testresult(com.wbl.test.SearchResultTest)  Time elapsed: 44.495 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div[1]/div[3]/div[1]/div/div/div[2]/div/div/form/select/option[3]"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Pradnya', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf), userDataDir=C:\Users\ompra\AppData\Local\Temp\scoped_dir13808_30225}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2807db958861c61a14ee80fab78db6ff
+*** Element info: {Using=xpath, value=html/body/div[1]/div[1]/div[3]/div[1]/div/div/div[2]/div/div/form/select/option[3]}
+	at com.wbl.test.SearchResultTest.testresult(SearchResultTest.java:22)
+

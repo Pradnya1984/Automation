@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20047" started-at="2017-07-10T22:53:14Z" finished-at="2017-07-10T22:53:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20047" started-at="2017-07-10T22:53:14Z" finished-at="2017-07-10T22:53:34Z">
+      <class name="com.app.test.HomePageTest">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:com.app.test.HomePageTest@69ea3742]" name="beforesuite" is-config="true" duration-ms="16829" started-at="2017-07-10T18:52:57Z" finished-at="2017-07-10T18:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.app.test.HomePageTest@69ea3742]" name="before" is-config="true" duration-ms="5" started-at="2017-07-10T18:53:14Z" finished-at="2017-07-10T18:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="testNavLink()[pri:0, instance:com.app.test.HomePageTest@69ea3742]" name="testNavLink" duration-ms="2567" started-at="2017-07-10T18:53:14Z" finished-at="2017-07-10T18:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavLink -->
+        <test-method status="PASS" signature="testSearchbox()[pri:0, instance:com.app.test.HomePageTest@69ea3742]" name="testSearchbox" duration-ms="8756" started-at="2017-07-10T18:53:17Z" finished-at="2017-07-10T18:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchbox -->
+        <test-method status="PASS" signature="testnewUser()[pri:0, instance:com.app.test.HomePageTest@69ea3742]" name="testnewUser" duration-ms="2968" started-at="2017-07-10T18:53:26Z" finished-at="2017-07-10T18:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testnewUser -->
+        <test-method status="PASS" signature="testsigninClick()[pri:0, instance:com.app.test.HomePageTest@69ea3742]" name="testsigninClick" duration-ms="5589" started-at="2017-07-10T18:53:29Z" finished-at="2017-07-10T18:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsigninClick -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.app.test.HomePageTest@69ea3742]" name="aftersuite" is-config="true" duration-ms="1206" started-at="2017-07-10T18:53:35Z" finished-at="2017-07-10T18:53:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.app.test.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
